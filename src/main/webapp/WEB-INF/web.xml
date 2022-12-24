@@ -24,6 +24,11 @@
         <servlet-class>myCode.CookieServlet</servlet-class>
     </servlet>
 
+    <servlet>
+        <servlet-name>SessionServlet</servlet-name>
+        <servlet-class>myCode.SessionServlet</servlet-class>
+    </servlet>
+
     <servlet-mapping>
         <servlet-name>TryServlet</servlet-name>
         <url-pattern>/try</url-pattern>
@@ -42,5 +47,10 @@
     <servlet-mapping>
         <servlet-name>CookieServlet</servlet-name>
         <url-pattern>/cookieRegis</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>SessionServlet</servlet-name>
+        <url-pattern>/sessionRegis</url-pattern>
     </servlet-mapping>
 </web-app>
