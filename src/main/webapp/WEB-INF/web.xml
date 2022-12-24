@@ -19,6 +19,11 @@
         <servlet-class>myCode.PostFormServlet</servlet-class>
     </servlet>
 
+    <servlet>
+        <servlet-name>CookieServlet</servlet-name>
+        <servlet-class>myCode.CookieServlet</servlet-class>
+    </servlet>
+
     <servlet-mapping>
         <servlet-name>TryServlet</servlet-name>
         <url-pattern>/try</url-pattern>
@@ -32,5 +37,10 @@
     <servlet-mapping>
         <servlet-name>PostFromServlet</servlet-name>
         <url-pattern>/postBook</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>CookieServlet</servlet-name>
+        <url-pattern>/cookieRegis</url-pattern>
     </servlet-mapping>
 </web-app>

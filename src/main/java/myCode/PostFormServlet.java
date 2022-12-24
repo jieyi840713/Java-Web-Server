@@ -35,7 +35,7 @@ public class PostFormServlet extends HttpServlet {
         storeBook(name, Integer.parseInt(price), author);
 
         out = response.getWriter();
-        out.println("Book" +name+" has been stored in the database.");
+        out.println("Book " +name+" has been stored in the database.");
     }
 
     public void initializeJDBC(){
@@ -61,6 +61,5 @@ public class PostFormServlet extends HttpServlet {
         } catch (SQLException e) {
             throw new RuntimeException(e);
         }
-
     }
 }
