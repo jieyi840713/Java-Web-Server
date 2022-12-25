@@ -38,11 +38,11 @@ public class SessionServlet extends HttpServlet {
         PrintWriter out = response.getWriter();
 
         out.println("You entered the following data:");
-        out.println("<p>Book Name:"+name +"</P>");
+        out.println("<p>Book Name: "+name +"</P>");
         out.println("<br/>");
-        out.println("<p>Book Price:"+price +"</P>");
+        out.println("<p>Book Price: "+price +"</P>");
         out.println("<br/>");
-        out.println("<p>Book Author:"+author +"</P>");
+        out.println("<p>Book Author: "+author +"</P>");
         out.println("<br/>");
 
         out.println("<form method=\"post\" action=\"/sessionRegis\">");

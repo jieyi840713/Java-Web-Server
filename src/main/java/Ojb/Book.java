@@ -1,9 +1,22 @@
 package Ojb;
 
 public class Book {
+
+    private int bookId;
     private String name;
     private int price;
     private String author;
+
+    public Book() {
+    }
+
+    public int getBookId() {
+        return bookId;
+    }
+
+    public void setBookId(int bookId) {
+        this.bookId = bookId;
+    }
 
     public String getName() {
         return name;
